@@ -45,7 +45,7 @@
 	<div class="logo"></div>
 
 	<div class="tagline">
-		<span class="skill">Technology</span> <span class="bullet-blue" aria-hidden="true" data-icon="&#x22;"></span> 
+		<span class="skill">Technology wee</span> <span class="bullet-blue" aria-hidden="true" data-icon="&#x22;"></span> 
 		<span class="skill">Strategy</span> <span class="bullet-blue" aria-hidden="true" data-icon="&#x22;"></span>
 		<span class="skill">Implementation</span>
 	</div>
