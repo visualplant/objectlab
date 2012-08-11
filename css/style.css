@@ -1,0 +1,394 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font: 0.8em Calibri, Optima, Arial, sans-serif;
+	font-family:'Conv_calibri',Sans-Serif;
+	text-decoration: none;
+	background-image:url('../images/bg.png');
+	background-repeat:repeat;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End Meyer reset */
+
+	
+#page {
+	margin: 0px auto;
+	width: 90%;
+	text-align:center;
+	}
+
+.logo {
+	margin-top:10em;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(../images/ol-logo.png);
+	background-size:465px 102px;
+	width:465px;
+	height:102px;
+	}
+		
+.tagline {
+	margin-top:1.0em;
+	color: #2b4859;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	}
+	
+.bullet-blue { 
+	font-size:10px;
+	color:#2b4859;
+	position:relative;
+	top:-2px;
+	margin-right:5px;
+	margin-left:5px;
+	display:inline;
+	}
+	
+.bullet-green { 
+	font-size:7px;
+	color:#99cc00;
+	position:relative;
+	top:-1px;
+	margin-right:3px;
+	margin-left:3px;
+	display:inline;
+	}
+	
+.cities {
+	margin-top:1.0em;
+	color: #99cc00;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-size: 1.0em;
+	}
+	
+.rule { 
+	width:285px;
+	height:1px;
+	margin-top:18px;
+	opacity:0.2;
+	filter:alpha(opacity=20);
+	}
+	
+	
+.button { 
+	margin-top:1.0em;
+	color:#fff;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	width:156px;
+	height:37px;
+	font-weight:normal;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-size:1.4em;
+	letter-spacing: 0.10em;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height:40px;
+	background-color: #8c99a2;
+  	background-image: -moz-linear-gradient(90deg, #2b4858, #8c99a2);
+  	background-image: -ms-linear-gradient(90deg, #2b4858, #8c99a2);
+  	background-image: -o-linear-gradient(90deg, #2b4858, #8c99a2);
+  	background-image: -webkit-linear-gradient(90deg, #2b4858, #8c99a2);
+  	background-image: linear-gradient(90deg, #2b4858, #8c99a2);
+  	-moz-box-shadow: #999 0px 0px 10px;
+  	-webkit-box-shadow: #999 0 0 10px;
+  	box-shadow: #999 0px 0px 10px;
+  	cursor:pointer;
+  	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	}
+	
+.button:hover {
+	
+}
+
+.button:active {
+	color:#eee;
+	-moz-box-shadow: #ccc 0px 0px 7px;
+  	-webkit-box-shadow: #ccc 0 0 7px;
+  	box-shadow: #ccc 0px 0px 7px;
+  	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+
+.social {
+	margin-top:1.5em;
+	}
+
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+
+/***** iPhone portrait (300px) *****/
+
+.logo {
+	margin-top:3em;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(../images/ol-logo-290.png);
+	background-size:290px 64px;
+	width:290px;
+	height:64px;
+	}
+	
+.tagline {
+	margin-top:1.0em;
+	color: #2b4859;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	}
+	
+.cities {
+	margin-top:1.0em;
+	color: #99cc00;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-size: 1.0em;
+	}
+	
+.skill {
+	display:block;
+	clear:both;
+	}
+	
+.city {
+	display:block;
+	clear:both;
+	}
+	
+.bullet-blue { 
+	display:none;
+	}
+	
+.bullet-green { 
+	display:none;
+	}
+
+
+/***** End *****/
+
+} @media only screen and (max-width: 299px) {
+
+/***** Small phones - smaller than iPhone portrait (240px) *****/
+
+.logo {
+	margin-top:3em;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(../images/ol-logo.png);
+	background-size:224.731182795699px 48.2580645161291px;
+	width:224.731182795699px;
+	height:48.2580645161291px;
+	}	
+	
+
+.tagline {
+	margin-top:1.0em;
+	color: #2b4859;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	}
+	
+.cities {
+	margin-top:1.0em;
+	color: #99cc00;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-size: 1.0em;
+	}
+	
+.skill {
+	display:block;
+	clear:both;
+	}
+	
+.city {
+	display:block;
+	clear:both;
+	}
+	
+.bullet-blue { 
+	display:none;
+	}
+	
+.bullet-green { 
+	display:none;
+	}
+
+/***** End *****/ 
+
+
+} @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/***** iPhone landscape (456px) *****/
+
+.logo {
+	margin-top:1.4em;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(../images/ol-logo.png);
+	background-size:388.172043010753px 83.3548387096775px;
+	width:388.172043010753px;
+	height:83.3548387096775px;
+	}
+	
+.tagline {
+	margin-top:1.0em;
+	color: #2b4859;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	}
+	
+.cities {
+	margin-top:1.0em;
+	color: #99cc00;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-size: 0.6em;
+	}
+	
+.bullet-blue { 
+	font-size:7px;
+	color:#2b4859;
+	position:relative;
+	top:-2px;
+	margin-right:5px;
+	margin-left:5px;
+	display:inline;
+	}
+	
+.bullet-green { 
+	font-size:5px;
+	color:#99cc00;
+	position:relative;
+	top:-2px;
+	margin-right:3px;
+	margin-left:3px;
+	display:inline;
+	}
+	
+.skill {
+	display:inline;
+	}
+	
+.city {
+	display:inline;
+	}
+
+/***** End *****/
+
+}
+
+
+
+
+/* PRINT ______________________________________________________________________________________________________ */
+@media print {
+    * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } 
+    a, a:visited { text-decoration: underline; }
+    a[href]:after { content: " (" attr(href) ")"; }
+    abbr[title]:after { content: " (" attr(title) ")"; }
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } 
+    pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+    thead { display: table-header-group; }
+    tr, img { page-break-inside: avoid; }
+    img { max-width: 100% !important; }
+    @page { margin: 0.5cm; }
+    p, h2, h3 { orphans: 3; widows: 3; }
+    h2, h3 { page-break-after: avoid; }
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+/***** Retina displays *****/
+
+	.logo {
+		background-image: url(../images/ol-logo@2x.png); /* actual image size = 930px by 204px */
+		background-size:475px 102px;
+	  	width:475px;
+		height:102px;
+   	}
+   	
+/***** End *****/
+
+} @media only screen and (min-width: 300px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
+
+/***** iPhone portrait (300px) *****/
+
+.logo {
+		background-image: url(../images/ol-logo@2x.png); /* actual image size = 930px by 204px */
+		background-size:298px 64px;
+	  	width:298px;
+		height:64px;
+   	}
+
+}
+
+
+950  
+204  64
+
+
+
+
+
+
+
